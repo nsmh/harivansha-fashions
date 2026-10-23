@@ -1,11 +1,11 @@
 
 /*
-  AAROHI FASHION & TAILORING
+  harivansha FASHION & TAILORING
   Update the shop settings and sample products below before launch.
 */
 
 const SHOP = {
-  name: "Aarohi Fashion & Tailoring",
+  name: "harivansha Fashion & Tailoring",
 
   // Replace with your WhatsApp number, including country code.
   // India example: 919876543210 (no +, spaces or dashes).
