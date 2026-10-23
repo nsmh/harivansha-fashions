@@ -8,8 +8,8 @@ const SHOP = {
   name: "harivansha Fashion & Tailoring",
 
   // Replace with your WhatsApp number, including country code.
-  // India example: 919876543210 (no +, spaces or dashes).
-  whatsapp: "919876543210",
+  // India example: 9176975498 (no +, spaces or dashes).
+  whatsapp: "9176975498",
 
   currency: "INR"
 };
