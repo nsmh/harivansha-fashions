@@ -1,4 +1,3 @@
-
 /*
   harivansha FASHION & TAILORING
   Update the shop settings and sample products below before launch.
@@ -23,7 +22,7 @@ const products = [
     price: 249,
     tag: "Popular",
     description: "Colorful bangles for festive occasions.",
-    image: "https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1610302843571-04b93198533b?auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 2,
@@ -32,7 +31,7 @@ const products = [
     price: 399,
     tag: "Featured",
     description: "A stylish accessory for special moments.",
-    image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 3,
@@ -41,7 +40,7 @@ const products = [
     price: 149,
     tag: "",
     description: "A lovely finishing touch to your outfit.",
-    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 4,
@@ -50,7 +49,7 @@ const products = [
     price: 99,
     tag: "New",
     description: "Pretty accessories for everyday styling.",
-    image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1599459166151-2244f2b9cfec?auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 5,
@@ -59,7 +58,7 @@ const products = [
     price: 120,
     tag: "",
     description: "A colorful selection for sewing projects.",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 6,
@@ -68,7 +67,7 @@ const products = [
     price: 180,
     tag: "Popular",
     description: "Decorative trims for blouses and dresses.",
-    image: "https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 7,
@@ -77,7 +76,7 @@ const products = [
     price: 199,
     tag: "",
     description: "Decorative details for custom blouse designs.",
-    image: "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 8,
@@ -86,7 +85,7 @@ const products = [
     price: 299,
     tag: "Featured",
     description: "Useful supplies for your tailoring projects.",
-    image: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"
   }
 ];
 
