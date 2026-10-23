@@ -1,43 +1,4 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#8b2450">
-  <meta name="description" content="Shop beautiful bangles, fancy accessories, tailoring materials, lace, and blouse embellishments.">
-  <title>harivansha Fashion & Tailoring | Fashion for Every Occasion</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-</head>
-<body>
-  <div class="announcement">
-    Your destination for fashion, accessories & tailoring essentials
-  </div>
-
-  <header class="site-header">
-    <a class="brand" href="#" aria-label="harivansha home">
-      <span class="brand-icon">✿</span>
-      <span>
-        <strong>harivansha</strong>
-        <small>FASHION & TAILORING</small>
-      </span>
-    </a>
-
-    <nav aria-label="Main navigation">
-      <a href="#home">Home</a>
-      <a href="#categories">Categories</a>
-      <a href="#shop">Shop</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-    <button class="cart-button" id="cart-toggle" type="button">
-      🛍️ Cart <span id="cart-count">0</span>
-    </button>
-  </header>
-
-  <main>
-    <section class="hero" id="home">
+<section class="hero" id="home">
       <div class="hero-content">
         <p class="eyebrow">A LITTLE SPARKLE, A LOT OF STYLE</p>
         <h1>Beautiful things<br>for your beautiful style.</h1>
@@ -50,130 +11,12 @@
       </div>
       <div class="hero-art" aria-label="Fashion and accessories">
         <div class="hero-circle">
+          <!-- Replaced with a traditional Indian girl aesthetic image -->
           <img
-            src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=850&q=85"
-            alt="Elegant gold jewelry"
+            src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=850&q=85"
+            alt="Traditional Indian woman in ethnic wear"
           >
         </div>
         <span class="floating-label">Made for your moments ✨</span>
       </div>
     </section>
-
-    <section class="benefits" aria-label="Shop benefits">
-      <div>♡ <span>Beautiful collections</span></div>
-      <div>✿ <span>Fashion & tailoring</span></div>
-      <div>✓ <span>Easy WhatsApp ordering</span></div>
-    </section>
-
-    <section class="section" id="categories">
-      <div class="section-heading">
-        <p class="eyebrow">FIND YOUR FAVORITES</p>
-        <h2>Shop by category</h2>
-        <p>Little details that make every look special.</p>
-      </div>
-
-      <div class="category-grid">
-        <button class="category-card" data-category="Bangles">
-          <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=600&q=80" alt="Jewelry collection">
-          <span>Bangles & Jewelry</span>
-          <small>Explore collection →</small>
-        </button>
-        <button class="category-card" data-category="Fancy Items">
-          <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=600&q=80" alt="Fashion accessories">
-          <span>Fancy Items</span>
-          <small>Explore collection →</small>
-        </button>
-        <button class="category-card" data-category="Tailoring">
-          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80" alt="Sewing and craft supplies">
-          <span>Tailoring Materials</span>
-          <small>Explore collection →</small>
-        </button>
-        <button class="category-card" data-category="Dress Materials">
-          <img src="https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=600&q=80" alt="Colorful fabric">
-          <span>Dress Materials</span>
-          <small>Explore collection →</small>
-        </button>
-      </div>
-    </section>
-
-    <section class="shop-section" id="shop">
-      <div class="section-heading">
-        <p class="eyebrow">A FEW LOVELY FINDS</p>
-        <h2>Our featured products</h2>
-        <p>Choose your favorites and send your order directly to us.</p>
-      </div>
-
-      <div class="shop-tools">
-        <label class="search-box">
-          <span>⌕</span>
-          <input id="search-input" type="search" placeholder="Search products..." aria-label="Search products">
-        </label>
-        <select id="category-filter" aria-label="Filter by category">
-          <option value="All">All categories</option>
-          <option value="Bangles">Bangles</option>
-          <option value="Fancy Items">Fancy Items</option>
-          <option value="Tailoring">Tailoring Materials</option>
-          <option value="Dress Materials">Dress Materials</option>
-        </select>
-      </div>
-
-      <div class="product-grid" id="product-grid">
-        <p>Loading products...</p>
-      </div>
-
-      <p class="sample-note">
-        Sample products and prices are for demonstration. Update them
-        in script.js before launching your store.
-      </p>
-    </section>
-
-    <section class="promo">
-      <div>
-        <p class="eyebrow">YOUR STYLE, YOUR WAY</p>
-        <h2>Every stitch. Every sparkle. Every little detail.</h2>
-        <p>Find the finishing touches for your next beautiful creation.</p>
-      </div>
-      <a href="#shop" class="light-button">Shop the collection →</a>
-    </section>
-
-    <section class="contact-section" id="contact">
-      <div>
-        <p class="eyebrow">WE WOULD LOVE TO HEAR FROM YOU</p>
-        <h2>Let's make your next look special.</h2>
-        <p>Have a question about prices, availability or bulk orders?</p>
-      </div>
-      <a class="primary-button" id="contact-whatsapp" href="#contact">
-        Chat with us on WhatsApp
-      </a>
-    </section>
-  </main>
-
-  <aside class="cart-panel" id="cart-panel" aria-label="Shopping cart" hidden>
-    <div class="cart-heading">
-      <h2>Your shopping cart</h2>
-      <button id="cart-close" class="icon-button" type="button" aria-label="Close cart">✕</button>
-    </div>
-    <div id="cart-items"></div>
-    <div class="cart-total">
-      <span>Total</span>
-      <strong id="cart-total">₹0</strong>
-    </div>
-    <p class="cart-help">Delivery charges, if any, will be confirmed with your order.</p>
-    <button class="primary-button checkout-button" id="checkout-button" type="button">
-      Order on WhatsApp →
-    </button>
-  </aside>
-  <div id="cart-backdrop" class="backdrop" hidden></div>
-
-  <footer class="site-footer">
-    <a class="brand footer-brand" href="#home">
-      <span class="brand-icon">✿</span>
-      <span><strong>Aarohi</strong><small>FASHION & TAILORING</small></span>
-    </a>
-    <p>Bringing beauty to every detail. ♡</p>
-    <p class="copyright">© <span id="year"></span> Aarohi Fashion & Tailoring. All rights reserved.</p>
-  </footer>
-</body>
-</html>
-
-THIS IS index.html, please align this with the changes in script.js
